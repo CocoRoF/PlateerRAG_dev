@@ -1,4 +1,4 @@
-FROM python:3.12.11
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
